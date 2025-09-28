@@ -1,0 +1,50 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Create the AWS VPC
+      amazon.aws.ec2_vpc_net:
+        name: NEw_Ansible_Auto
+        cidr_block: 10.0.0.0/16
+        region: us-east-1
+      register: my_vpc
+      
+    - name: Creating Subnets
+      amazon.aws.ec2_vpc_subnet:
+        cidr: 10.0.10.0/24
+        region: us-east-1
+        az: us-east-1a
+        vpc_id: "{{ my_vpc.vpc.id }}"
+        tags:
+          Name: anisble_subnet1
+      register: my_subnet1
+
+    - name: Createing gateway
+      amazon.aws.ec2_vpc_igw:
+        vpc_id: "{{ my_vpc.vpc.id }}"
+        state: present
+        tags:
+          Name: ansible_igw1
+      register: igw1  
+
+    - name: Creating route table
+      amazon.aws.ec2_vpc_route_table:
+        subnets: "{{ my_subnet1.subnet.id }}"
+        routes:
+          - dest: 0.0.0.0/0
+            gateway_id: "{{ igw1.gateway_id }}"
+        vpc_id: "{{ my_vpc.vpc.id }}"
+        tags:
+          Name: Ansible_RT1
+      register: Auto_RT1
+    
+    - name: Creating security group
+      amazon.aws.ec2_security_group:
+        name: ansible_SG
+        vpc_id: "{{ my_vpc.vpc.id }}"
+        description: "Security group for Ansible EC2"
+        rules:
+        - proto: tcp
+          ports:
+            - 443
+          cidr_ip: 0.0.0.0/0
+          rule_desc: allow all on port 80 
