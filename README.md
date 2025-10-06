@@ -1,2 +1,1 @@
-# Devops
-daily practice
+# DevOps CI/CD Pipeline Project
