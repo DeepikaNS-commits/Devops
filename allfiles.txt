@@ -1,0 +1,89 @@
+140cc8f6e5b8a6367de0526ff2bf071aad90fd9a
+1e381ca80d465b4111a2193bc8ab524937d917a8
+4e791c7eb59b027bcf36195c62b16514d1e4bc6d
+5fb3cb27b1b88278c78932e68542bbf887ef527a
+a2d3a47f3ae332758231ade067a94d74987891a6
+a59c68f9ed7cee253b557e67e7428a15afdc3f9b
+b24a8e414dc0021cc21bb2ce0c1933331f7f8bdc
+be8f60e64c2f5a1647a605afc31386811608a804
+c330e84e24c83904d706efdfd5629f5150b11cd6
+d0a351699cd8d07ea78f6f02ddf78b9ff8be220b
+d28c83a3939b39921a43943002c14b8a6e9d74b2
+dea6caa6a4250336b516fa704d0a571bed52c98f
+039e355ee72356b05c20afe5a0e419f5e234b25b 
+05d52ab82bc41c90a8baf65f4842e01c7093b859 
+144bbb304da01342fed41de5722776ad7004a49e 
+4d7c11632a89954b91091bcbdb98a3b07003b049 
+877c7efdf1bebb0b22e6d63af4d756b8bbe6e928 
+943e35afaa7d9069c8d601525666894d0f7f2e40 
+a041dad14d71499de027b307f9d57f1d40f7e010 
+ae36e4df8084512cf29ed6ed32314b509066e996 
+b2eef7a363579d7bcc8a73312f182d63be2b7532 
+d7a85188a6d8c264f629992441d3060a12aacde2 
+db23e2a615c0430ef32edb4b8e74f0bffb271f11 
+e4a01cb7d33d4e68ee0ffc0f4e62c2c22113087f 
+571620f03ea69eaf0d84bd5ac8f7941f0733fff3 .gitignore
+f6a70f53c907740307f2710495362ece6842b9de .gitignore
+702f85a26149e57e8ee6f1a1edb063ec6311a8c4 README.md
+8c24bb730771351f561c1ace740fd06a21a4ec19 README.md
+f8e0436b37cd9debbbcea94836b9522a26640447 app
+6b31b75501f7964edb169b6b90e8f14c1c5f6eed app/lambda_app.py
+7f5c77ccfdb5e218e7675007cb170d88aa0bbd04 aws_infra.yml
+0b14ed8ddef7a9c3935619f5f136851ee6177a0c end-to-end-ci-cd-projects
+2ef58917acafba7cad4713dac74b82aab402a7b4 end-to-end-ci-cd-projects
+a89b957e9b145d8eb641445a9398c35f9cc95fb4 end-to-end-ci-cd-projects
+bc6d7a92396370fcf3bfff4ced76795d51eedd61 end-to-end-ci-cd-projects
+fc1e57df430449ebec53fec57698f7b5f065c384 end-to-end-ci-cd-projects
+21eae2f7d8da0741d64502ce4804fadb85d12fac end-to-end-ci-cd-projects/ansible
+bfb3137d725b047a8fcca693783fb3ca62b6815b end-to-end-ci-cd-projects/ansible
+3b996ebbb388614dc4d0d58a174209c5d5dc3c67 end-to-end-ci-cd-projects/ansible/.terraform
+78d3c556c27d8c393fd135aa5c9a1d5879a391f8 end-to-end-ci-cd-projects/ansible/.terraform.lock.hcl
+94276a9ad7368cb7ec8a140e1184ad1f726d6852 end-to-end-ci-cd-projects/ansible/.terraform/terraform.tfstate
+13d283efb85c34b54d792435f9b7c73116d4c086 end-to-end-ci-cd-projects/ansible/data.tf
+44b6a5727d2fab96d83578a1f7e3b9d8944e950f end-to-end-ci-cd-projects/ansible/main.tf
+25116d25ccc65e9c8753146b9290bef26abc1912 end-to-end-ci-cd-projects/ansible/provider.tf
+65ff6e7af4513c847aaa74702563bb39c91d7046 end-to-end-ci-cd-projects/ansible/security.tf
+b10464f362fa1a15b1bc24915751c5a3b0b7cd20 end-to-end-ci-cd-projects/ansible/variables.tf
+b02ad8c373623ec7d951e5bc5632b27facf0325d end-to-end-ci-cd-projects/eks-server
+b8584c0b12a4efd8117f05d3ae8a32934ba939d7 end-to-end-ci-cd-projects/eks-server
+ec817f5e428f9332bf9109149322742e405bac73 end-to-end-ci-cd-projects/eks-server/.terraform
+97b41cc53a5b6cb5452a040826d9b818b07f25e9 end-to-end-ci-cd-projects/eks-server/.terraform/providers
+8db5384bd93999a29796ded3b59031fa6b62d624 end-to-end-ci-cd-projects/eks-server/.terraform/providers/registry.terraform.io
+d0df05a031b3bda414014e9c7fa7bf1bbd65b376 end-to-end-ci-cd-projects/eks-server/.terraform/providers/registry.terraform.io/hashicorp
+cc7ae03dbf92227794095dd7716a656aed03c894 end-to-end-ci-cd-projects/eks-server/.terraform/providers/registry.terraform.io/hashicorp/aws
+85a9586c475c3f201b4acff834eb3d4877bb8cbb end-to-end-ci-cd-projects/eks-server/.terraform/providers/registry.terraform.io/hashicorp/aws/4.67.0
+804913c4290c962c0b2975a1d51eb8fdd611f4f3 end-to-end-ci-cd-projects/eks-server/.terraform/providers/registry.terraform.io/hashicorp/aws/4.67.0/linux_amd64
+cf7f9ab00051f265d86f062de9f36cf8b46c76d8 end-to-end-ci-cd-projects/eks-server/.terraform/providers/registry.terraform.io/hashicorp/aws/4.67.0/linux_amd64/terraform-provider-aws_v4.67.0_x5
+68b80f0b304fa705077db9129c285eb00bffb58d end-to-end-ci-cd-projects/eks-server/.terraform/terraform.tfstate
+9f3f029670490bc0dc65ef4b5da97d41487b0e18 end-to-end-ci-cd-projects/eks-server/main.tf
+9919b5896c5226218bf0aa30c30482ebac8b0012 end-to-end-ci-cd-projects/eks-server/provider.tf
+f5b7aa8b6a5d140203c38087777fcd49a3d718f2 end-to-end-ci-cd-projects/eks-server/security.tf
+5210c56a8e103e0c27186362282e2f0848f5d768 end-to-end-ci-cd-projects/jenkins
+ca9f3c4c000bf4fb08a84c74f1a6dc1a9a65ca8b end-to-end-ci-cd-projects/jenkins
+8296bebab2bd9edbce82d8a71fd19ca4c4d4e7d6 end-to-end-ci-cd-projects/jenkins/.terraform
+a9172e4ddc6342557cc0916f19b62696439e4480 end-to-end-ci-cd-projects/jenkins/.terraform/terraform.tfstate
+51304bb18e29642558548dafa524d5d7f431a953 end-to-end-ci-cd-projects/jenkins/main.tf
+2aa2e228017f7bd1034af8230f1a1fc4451053aa end-to-end-ci-cd-projects/jenkins/provider.tf
+f49c8ba3807cb378baefd6c5b2c96eed52f508ef end-to-end-ci-cd-projects/jenkins/security.tf
+8ed7976c63955bb96a5c8049d56e64dc512627a5 end-to-end-ci-cd-projects/pom.xml
+29c3aeed09069a2bd3e7f410ea3603e59835e8a6 end-to-end-ci-cd-projects/src
+8830a9c15ed60bb10bef49309868677226ed9886 end-to-end-ci-cd-projects/src/main
+72bcbc0a957a3efab54cfd35f24402e4f59caca1 end-to-end-ci-cd-projects/src/main/java
+a6054f10f414aaa56dfee14940357a6c034a96cb end-to-end-ci-cd-projects/src/main/java/com
+52465934376f2e98416f74baa695cd81e87d97a2 end-to-end-ci-cd-projects/src/main/java/com/mt
+f1e49e931741d0d32fbe59fd825604cc9efd4e54 end-to-end-ci-cd-projects/src/main/java/com/mt/services
+4adb3c157bd0cda01f13063fcfcaf3c4015bf73e end-to-end-ci-cd-projects/src/main/java/com/mt/services/EmployeeService.java
+f52eaee1bcdda24ac6baa65c57c0e8e257966dc5 end-to-end-ci-cd-projects/src/main/webapp
+83f69340cd288be331893e23057605caed5ba454 end-to-end-ci-cd-projects/src/main/webapp/WEB-INF
+81c4f0750373c56119ae84462914e377d5130392 end-to-end-ci-cd-projects/src/main/webapp/WEB-INF/mt-servlet.xml
+75b8c86e57b962f47f67fbb8aa228ab5d4d093bd end-to-end-ci-cd-projects/src/main/webapp/WEB-INF/web.xml
+71bd8ad54fb8415b23f6c3d4e9b0feb4add46d07 end-to-end-ci-cd-projects/src/main/webapp/images
+eeea75c11e1b6a2d50fa842e7bbc624b33705701 end-to-end-ci-cd-projects/src/main/webapp/images/logo2.png
+e0efc994831df4d0dd09d4fac2674320fe6c0bfb end-to-end-ci-cd-projects/src/main/webapp/jsps
+9f941f095013d6feebbbad524792aeef5a35581b end-to-end-ci-cd-projects/src/main/webapp/jsps/home.jsp
+d2c65983cfaebdb9c2925a76ca672d00b7eb1383 multistage
+fdf6dee2a6d56efa227eb08ff7d0fcec1c479111 multistage/Dockerfile
+64f1da0090e9fac07483d3c33afeca075613da6a multistage/go.mod
+e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 multistage/go.sum
+2fa494b00f7a2acddd35ff43e866e061327c9917 multistage/main.go
+674442dd665f9c53ada8d8f757f3cf618be56ca1 summary_multistage_docker.md
